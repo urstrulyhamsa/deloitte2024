@@ -3,7 +3,7 @@ from kafka import KafkaConsumer
 import json
 
 # Connect to MySQL
-db = mysql.connector.connect(user='your_user', password='your_password', host='localhost', database='finCorp')
+db = mysql.connector.connect(user='root', password='Ssmb@152002', host='localhost', database='finCorp')
 cursor = db.cursor()
 
 # Initialize the Kafka consumer
